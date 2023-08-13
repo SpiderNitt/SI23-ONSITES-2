@@ -57,6 +57,27 @@ Design a URL shortener service that takes a long URL as input and generates a sh
 
 </details>
 
+<details>
+<summary>Movie Booking App</summary>
+
+Build an Application for booking movies. The creativity for UI is appreciated.
+
+### Features
+1. Users should be able to browse for movies and select them. Make a screen to show the available movies. When clicked on a movie, it should show the name of the theaters in which it is available. You can use any API to get the movies list.
+2. After selecting a movie, theater, and show timing, the user should be able to select the screen. For simplicity, have 20 seats to book from. After clicking "Book now", a ticket should be generated on a separate screen, along with a QR Code. The ticket should consist of all the info.
+3. Add a history screen where users can see their past bookings for 1 month.
+4. Add a notification system such that it should notify 1 hour prior to the show.
+
+
+### Brownie points
+Implement a user authentication system with a login id and password for each user.
+
+Feel free to explore various APIs to do the task.
+
+Collection of APIs - https://rapidapi.com/hub
+
+</details>
+
 # Computer Networking
 <details>
 <summary>Recursive Caching DNS Server</summary>
@@ -81,6 +102,13 @@ It is common for hackers to utilize brute force attacks in an attempt to gain un
 <summary>InnoDB MySQL Cluster</summary>
 
 During the production yesterday, we can see a significant load on the MySQL database. You are assigned to set up an InnoDB MySQL cluster that performs group replication. There should be two secondary nodes and a primary node. For the sake of demonstration, you can use MySQL containers.
+
+</details>
+
+<details>
+<summary>Message Queues</summary>
+
+Host a front end that has a button in it. On clicking, it should call a REST endpoint of a backend service. Create another backend service that keeps track of the number of clicks the users make and prints it. Both services should communicate via a message queue of your choice.
 
 </details>
 
@@ -128,7 +156,7 @@ bash GetMovieData.sh Inception
 ```
 
 
-The data should be saved into a Mongodb container with the following collections: 
+The data should be saved into a MongoDB container with the following collections: 
 - Movies 
 - Actors  
 - Directors 
@@ -165,6 +193,8 @@ Parse the `Actors` field of JSON response and add each actor in the **Actors** c
 Have a cronjob that takes a backup of the movie collection. 
 
 Run a separate  container and save the movie poster in the `/images` directory.
+
+Additionally, we expect a load where two instances of the containers are needed to handle it. Implement replication of the data and make sure the data is consistent across the containers.
 
 </details>
 
