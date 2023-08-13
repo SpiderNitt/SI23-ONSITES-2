@@ -217,6 +217,11 @@ As a cybercop of the dark web, it's your responsibility to know how websites are
 </details>
 
 <details>
+<summary>Continuous Build</summary>
+Configure a continuous build pipeline that listens to the GitHub repo push, builds the image, and pushes it to the Docker hub. We recommend using Jenkins for this purpose but feel free to do your research.
+</details>
+
+<details>
 <summary>Load Testing</summary>
 A JWT-based authentication REST API goes into production next week. We expect around 100 concurrent users. Perform a load test on the given API and the flow of requests should be as mentioned below.
 - /register
