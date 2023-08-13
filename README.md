@@ -51,7 +51,7 @@ Generate an Android build for the application using Trusted Web Activity.
 </details>
 
 <details>
-<summary>URL Shortner</summary>
+<summary>URL Shortener</summary>
 
 Design a URL shortener service that takes a long URL as input and generates a short, unique code for it. When users access the short URL, they should be redirected to the original URL. For the front end, you can make either a mobile or web app.
 
