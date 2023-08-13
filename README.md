@@ -78,6 +78,13 @@ Collection of APIs - https://rapidapi.com/hub
 
 </details>
 
+<details>
+<summary>Image Processing</summary>
+
+Build an application where users can upload images and resize it to their desired dimensions. An Image should be processed in parallel using multiple threads and the modified image should be returned to the users.
+
+</details>
+
 # Computer Networking
 <details>
 <summary>Recursive Caching DNS Server</summary>
