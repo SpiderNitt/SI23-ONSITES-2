@@ -24,7 +24,7 @@ You are assigned the task to reverse engineer the API and identify all accessibl
 
 <details>
 <summary>Tech Stack Recon</summary>
-The first step in successfully pen-testing any website is to fully understand the application. This is where active reconnaissance comes into play which is where you use various tools to probe an application to get information such as open ports, IP addresses, or the entire tech stack of a website.
+The first step in successfully pen-testing any website is fully understanding the application. This is where active reconnaissance comes into play which is where you use various tools to probe an application to get information such as open ports, IP addresses, or the entire tech stack of a website.
 
 Your first task is to find the OD(On Duty) website created by SPIDER. Once you have found the website, it is your job to get the public and private IPs as well as the tech stack of the website. This includes frontend, backend, DB, and proxy servers.
 
@@ -81,7 +81,7 @@ Collection of APIs - https://rapidapi.com/hub
 <details>
 <summary>Image Processing</summary>
 
-Build an application where users can upload images and resize it to their desired dimensions. An Image should be processed in parallel using multiple threads and the modified image should be returned to the users.
+Build an application where users can upload images and resize them to their desired dimensions. An Image should be processed in parallel using multiple threads, and the modified image should be returned to the users.
 
 </details>
 
@@ -120,6 +120,12 @@ Host a front end that has a button in it. On clicking, it should call a REST end
 </details>
 
 # Web Automation
+<details>
+<summary>Spider</summary>
+
+Build a service that crawls the web in a breadth-first fashion. Maintain a database of URLs with a proper schema of subdomains, paths, and adjacent URLs that the crawler visited.
+
+</details>
 <details>
 <summary>Reddit Bot</summary>
 
